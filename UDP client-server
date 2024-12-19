@@ -6,7 +6,7 @@ public class UDPServer {
     public static void main(String args[]){
         DatagramSocket aSocket = null; 
         Scanner scn=new Scanner(System.in); 
-        int serverPort =999;
+        int serverPort =998;
         System.out.println("Server Ready\n Waiting for connection....\n"); 
         try{
             aSocket=new DatagramSocket(serverPort); 
