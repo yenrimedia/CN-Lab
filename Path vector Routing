@@ -29,7 +29,6 @@ class PathVectorRouting {
                 }
             }
         }
-
         printShortestPaths(distance, path, numVertices);
     }
 
